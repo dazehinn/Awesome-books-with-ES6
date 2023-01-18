@@ -11,7 +11,7 @@ import { DateTime } from './modules/luxon.js';
 const btnAdd = document.getElementById('btn-add');
 const listSec = document.getElementById('book-list');
 const datebar = document.querySelector('#date-time');
-const now = DateTime.now().toFormat('dd MMMMM yyyy');
+const now = DateTime.now().toFormat('dd MMMM yyyy');
 
 datebar.innerHTML = now;
 
