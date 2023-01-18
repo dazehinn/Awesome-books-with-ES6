@@ -77,17 +77,27 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- git
+- git (for version control)
 - web browser
+Have text editor installed. (VSCode, sublime, atom)
+- (optional) Have CSS,HTML & JS Linters installed and configured. For further information, visit [this link](https://github.com/microverseinc/linters-config/blob/master/README.md) to get better understanding on each linters used on this project.
 
 ### Setup
 
-Clone this repository to your desired folder:
+* Clone this repository to your desired folder
+* open the index.html file using a web browser
 
 
 ### Usage
+This page registers books with author and title of the book. To register a book:
+1. Type the author's name.
+2. Type the book's title.
+3. Click on Add button below.
+4. The books will be added to the list and will be displayed.
 
-To run the project, open the index.html file using a web browser
+To remove a book from the list:
+1. Find the book in the list.
+2. Click on remove button
 
 ### Deployment
 
