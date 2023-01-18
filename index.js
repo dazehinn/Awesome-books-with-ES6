@@ -4,10 +4,16 @@ import {
   list, add, contact, showlist, addshow, contactshow,
 } from './modules/dynamic.js';
 
+import { DateTime } from './modules/luxon.js';
+
 /* Create booksArray and set it to empty if localStorage is null */
 
 const btnAdd = document.getElementById('btn-add');
 const listSec = document.getElementById('book-list');
+const datebar = document.querySelector('#date-time');
+const now = DateTime.now().toFormat('dd MMMMM yyyy');
+
+datebar.innerHTML = now;
 
 /* link events */
 
